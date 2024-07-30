@@ -124,65 +124,97 @@
     transition: all 0.5s ease;
     overflow: hidden;
 }
+
 .we__offer  .card:hover {
     transform: scale(1.05);
 }
 
 .we__offer .card img {
-    width:240px;
-    height: 150px;
+    width:300px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
 }
 
 .we__offer .card  h2 {
     padding: 0 10px;
-    font-size: 15px;
-    font-weight:600;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .we__offer .card  p {
-    padding:0 10px 10px 10px;
-    font-size:12px;
+    padding: 0 10px 10px 10px;
+    font-size: 15px;
 }
 
-.container_collection h1{
+.container__collection h1{
     font-weight: 700;
 }
 
-.sub_heading_container{
-    display:flex;
+.container__collection  .sub_heading_container{
+    display: flex;
     align-items: center;
-    justify-content:space-between;
-    font-size:17px;
-    flex-wrap:wrap;
-    gap:1rem;
+    justify-content: space-between;
+    font-size: 20px;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
-.sub_heading_container span:nth-child(2){
-    color:rgb(243, 122, 122);
-    font-size:15px;
+.sub_heading_container  span:nth-child(2){
+    color: rgb(243, 122, 122);
+    font-size: 17px;
 }
 
-.collection_card_container{
-    display:flex;
-    gap:9px;
+.collection_cards {
+    display: flex;
+    gap: 12px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: 25px;
 }
 
-.collection_card_container .collection{
-    height:300px;
-    min-width:200px;
+.collection_cards  .card{
+    height: 300px;
+    min-width: 240px;
     background-size: cover;
     background-position: center;
-    border-radius:15px;
-    position:relative;
+    border-radius: 10px;
+    position: relative;
 }
 
 .card1{
-    background-image: url('.images//card image 1');
-    
+    background:url('images//card\ image\ 1.jpeg')
+}
+.card2{
+    background:url('images//card\ image\ 2.jpeg')
+}
+.card3{
+    background:url('images//card\ image\ 3.jpeg')
+}
+.card4{
+    background:url('images/card\ image\ 4.jpeg')
+}
+
+.overlay{
+    display: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: linear-gradient(0deg,
+    rgba(0,0,0,0.9)0%,
+    rgba(0, 0, 0, 0.05)50%,
+    rgb(0, 0, 0 , 0.05)85%
+    );
+}
+
+.collection_cards .card .content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
 }
