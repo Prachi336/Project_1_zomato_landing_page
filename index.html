@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
     <section class="hero__section">
         <header>
             <nav class="navbar">
@@ -28,12 +29,13 @@
             <img class="hero_section_logo" src="./images/heroSectionLogo.png" alt="Zomato logo"/>
             <h1 class="hero__section_heading">Discover the best food & drinks in Jaipur</h1>
             <div class="hero__section_input_container">
-            <input class="input_container_location" type="text" placeholder="Jaipur">
-            <input class="input_container_search" type="text" placeholder="Search for restaurant , cuisine or dish">
+                <input class="input_container_location" type="text" placeholder="Jaipur">
+                <input class="input_container_search" type="text" placeholder="Search for restaurant , cuisine or dish">
             </div>
         </div>
-        
     </section>
+
+
     <section class="container">
         <div class="we__offer">
             <div class="card">
@@ -53,43 +55,83 @@
             </div>
         </div>
     </section>
+
+
     <section class="container__collection">
         <h1>Collections</h1>
         <div class="sub_heading_container">
             <span>Explore curated list of top restaurants,cafe,pubs,and bars in Jaipur,based on trends</span>
             <span>All collections in Jaipur</span>
         </div>
+        
         <div class="collection_cards">
             <div class="card card1">
                 <div class="overlay"></div>
                 <div class="content">
-                <h2>Newly Opened restaurants</h2>
-                <span>6 Places</span>
+                    <h2>Newly Opened restaurants</h2>
+                    <span>6 Places</span>
+                </div>
             </div>
-        </div>
+
             <div class="card card2">
                 <div class="overlay"></div>
                 <div class="content">
-                <h2>Best Royal Dining Places</h2>
-                <span>11 Places</span>
+                    <h2>Best Royal Dining Places</h2>
+                    <span>11 Places</span>
+                </div>
             </div>
-        </div>
+        
             <div class="card card3">
                 <div class="overlay"></div>
                 <div class="content">
-                <h2>Best Insta-worthy Pictures</h2>
-                <span>37 Places</span>
+                    <h2>Best Insta-worthy Pictures</h2>
+                    <span>37 Places</span>
+                </div>
             </div>
-        </div>
+        
             <div class="card card4">
                 <div class="overlay"></div>
                 <div class="content">
-                <h2>Best Rooftop Places</h2>
-                <span>38 Places</span>
+                    <h2>Best Rooftop Places</h2>
+                    <span>38 Places</span>
+                </div>
             </div>
         </div>
-    </div>
-    </section> 
+    </section>
+
+
+    <section class="get__the_app">
+        <div class="Semicontainer">
+            <div class="left">
+                <img src="images/mobileBanner.png" alt=" ">
+            </div>
+            <div class="right">
+                <h1>Get the Zomato app</h1>
+                <p>We will send you a link, open it on your phone to download the app</p>
+                <div class="radio_button_container">
+                    <div>
+                        <input type="radio" name="download_app" id="Email">
+                        <label for="Email" style="font-size: 14px;">Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="download_app" id="Phone" />
+                        <label for="Phone" style="font-size: 14px;">Phone</label>
+                    </div>
+                </div>
+                <div class="input_container">
+                    <input type="text" placeholder="Email" />
+                    <button>Share app link</button>
+                </div>
+                <div class="download__app_container">
+                    <h5>Download app from</h5>
+                    <div>
+                        <img src="images/appleStore.png" alt="appleStore">
+                        <img src="images/playStore.png" alt="playStore">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
